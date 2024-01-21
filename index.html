@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <title>Assignment</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome To Our Juice Shop</h1>
+    </header>
+
+    <section>
+        <h1>Give yourself a boost!</h1>
+
+        <div class="product">
+            <img src="apple.png" alt="Apple">
+            <h2>Apple Juice-$5</h2>
+            <button onclick="addToCartApple('Apple')">Add to Cart</button>
+        </div>
+         <br><br>
+
+        <div class="product">
+          <img src="orange.png" alt="Orange">
+            <h2>Orange Juice-$6</h2>
+            <button onclick="addToCartOrange('Orange')">Add to Cart</button>
+        </div>
+        <br><br>
+      
+        <div class="product">
+          <img src="pineapple.png" alt="Pineapple">
+            <h2>Pineapple Juice-$10</h2>
+            <button onclick="addToCartPineapple('Pineapple')">Add to Cart</button>
+        </div>
+         <br><br>
+
+        <div class="product">
+            <img src="watermelon.png" alt="Watermelon">
+              <h2>Watermelon Juice-$20</h2>
+              <button onclick="addToCartWatermelon('Watermelon')">Add to Cart</button>
+          </div>
+         <br><br>
+         
+         <div class="product">
+          <img src="strawberry.png" alt="Strawberry">
+            <h2>Strawberry Juice-$15</h2>
+            <button onclick="addToCartStrawberry('Strawberry, $15')">Add to Cart</button>
+        </div>
+         <br><br>
+
+         
+        </section>
+        
+          <div class="checkout">
+            <button onclick=" addToCheckout()">Checkout</button>
+        </div>
+
+        <div class="receipt">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>Receipt</p></div>
+            </div>
+      
+
+
+    
+     
+       
+</body>
+</html>
